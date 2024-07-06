@@ -9,13 +9,23 @@
 <head>
 
 <body>
-<h1>AppCheckin</h1>
+
 
 <form id="login-form">
-<fieldset>
-	<input type ="text" id="user-input" placeholder="Login" required><br />
-    <input type ="password" id="password-input" placeholder="Senha" required>
-	<button type = "submit">Logar</button>
+<fieldset id="log">
+	<h1>AppCheckin</h1>
+
+	<div id="login">
+	<input type ="text" id="user-input" required><br />
+	<label for="nome" id="label-log">Nome</label> <br>
+	</div>
+
+	<div id="login">
+    <input type ="password" id="user-input" required> <br>
+	<label for="senha" id="label-log">Senha</label>
+	</div>
+
+	<button id="botao" type = "submit">Logar</button>
 </fieldset>
 </form>
 
